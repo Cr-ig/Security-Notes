@@ -13,7 +13,7 @@ A new theme that is making it's way to the scene is Resiliency.
 Resilient organizations continually keep critical functions running by adapting to changes and risks that would otherwise shut them down. 
 
 Resiliency: 
-Multiple ISPs, redundant infrasturucre of on prem servers (Clusters), Load Balencers, Backup generators, UPSs, Cellular Bonding technology
+Multiple ISPs, redundant infrasturucre of on prem servers (Clusters), Load Balencers, Backup generators, UPSs, Cellular and Network Bonding Technology. 
 
 Preventative: 
 MFA enabled, DLP Mail Hygene enabled, Deploy IPS, conditional access policies in place, DNS Security, Firewall, disable network
