@@ -1,6 +1,6 @@
 Defense In Depth is a strategy that utilizes multiple layers of security to protect your assets.
 
-Depending on the secure policy framework you choose, that will determine what assets of your org have what type of protection(s). What determins the 
+Depending on the secure policy framework you choose, that will determine what assets have what types of securities associated with them. What determins the 
 Secure Policy Framework is based on the consequences of what happens if your high value assets get compromised. 
 
 To approach it another way, you are trying to secure your environment to prevent a worst case senario from happening to your organization. 
