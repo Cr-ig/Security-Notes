@@ -1,0 +1,37 @@
+Defense In Depth is a strategy that utilizes multiple layers of security to protect the bottom line. Most articles you come across will say "to protect the asset"
+I 100% believe that is fully incorrect, the moment an asset is compromised it's no longer protected therefore your "bottom line" is what gets hit as a reproccution of the
+asset being compromis. 
+
+The bottom line is your companies ability to earn income.  
+
+Depending on the secure policy framework you choose, that will determine what layers of your org have protection. What determins the Secure Policy Framework is based on
+the consequences of what happens if your high value assets get compromised. 
+
+To approach it another way, you are trying to secure your environment to prevent a worst case senario from happening to your organization. 
+You are building your security according the concept of how severe consequences are if an asset is comrpomise. 
+
+An asset is considered a users credentials, on prem nodes (servers, computers, Cell Phone, printers, scanners, badge systems, routers/AC points, Smart Devices, and more)
+
+Your layers of security might be 
+
+Preventative: 
+MFA enabled, DLP Mail Hygene enabled, Deploy IPS, conditional access policies in place, DNS Security, Firewall, redundant ISP's, Load Balencers, disable network
+drops when not in use, hire a security guard, put up security camera....
+
+Detection: 
+Setup a SEIM to log events, Setup an IDS, Setup a NIDS
+
+Recover: 
+An effective Recovery Program includes Risk Management, contingency and continuity planning, and other security and emergency management frameworks and policies. 
+  The following plans make up the NIST Cyber Security Policy Framework: NIST SP 800-34 Rev 1 "Contingency Planning Guide for Federal Information Systems" 
+  https://csrc.nist.gov/csrc/media/events/hipaa-2010-safeguarding-health-information-buil/documents/2-2b-contingency-planning-swanson-nist.pdf
+  
+    Business Continutity Plan                
+    Continutity of Operations Plan
+    Crisis Communications Plan
+    Critical Infrastructure Protection Plan
+    Cyber Incident Response Plan
+    Disaster Recovery Plan
+    Information Systems Contingency Plan
+    Occupant Emergency Plan
+  
