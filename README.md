@@ -1,3 +1,3 @@
-This repo is to be used for publishing notes, thoughts, and ideas that I come across while studying, I will try to update frequently. 
+This repo is to be used for publishing my revisitons to notes that I have along with publishing new material pertaining to cyber security and cloud administraion. 
 
 Table of Contents: 
