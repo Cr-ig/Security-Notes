@@ -17,11 +17,14 @@ Multiple ISPs, redundant infrasturucre of on prem servers (Clusters), Load Balen
 (Mushroom Networks makes Network Bonding Technology) (Teradek makes Cellular Bonding Technology)
 
 Preventative: 
-MFA enabled, DLP Mail Hygene enabled, Deploy IPS, conditional access policies in place, DNS Security, Firewall, disable network
-drops when not in use, hire a security guard, put up security camera....
+Impliment Zero Trust Secure Framework, Use Microsoft 365 Enterprise Mobility and Security E5, Take a Holistic approach to Security with an Intrusion Prevention System, 
+DNS Security, setup a Firewall, disable network drops when not in use, hire a security guard, setup an anti passback or radius badge system, and put up security 
+cameras....
 
 Detection: 
-Setup a SEIM to log events, Setup an IDS, Setup a NIDS, setup Canarytokens. You can't stop 100% of all attacks but you better make sure they are logged. 
+Setup a SEIM to log events, Setup an Intrusion Detection System, Setup a Network Intrusion Detection System, setup Canarytokens,setup logging for certain commands
+that assist with lateral movements and when key files/folders get accessed, and Setup a Honeypot. 
+You can't stop 100% of all attacks but you better make sure they are logged. 
 
 Recover: 
 An effective Recovery Program includes Risk Management, contingency and continuity planning, and other security and emergency management frameworks and policies. 
