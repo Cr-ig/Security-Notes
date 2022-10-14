@@ -9,12 +9,16 @@ You are building your security according the concept of how severe consequences 
 An asset is considered a users credentials, on prem nodes (servers, computers, Cell Phone, printers, scanners, badge systems, routers/AC points, Smart Devices, and more)
 
 Defense In Depth's principal is, What you cannot prevent needs to be detected; If it cannot be detected you will need to be able to recovery from it. 
+
+Below, I've gone into some detail about some of the characteristics of Defence in Depth and helping with establishing a base to work from with securing your own environment. 
+
 A new theme that is making it's way to the scene is Resiliency. 
 Resilient organizations continually keep critical functions running by adapting to changes and risks that would otherwise shut them down. 
 
 Resiliency: 
-Multiple ISPs, redundant infrasturucre of on prem servers (Clusters), Load Balencers, Backup generators, UPSs, and utilizing Cellular and Network Bonding Technology. 
-(Mushroom Networks makes Network Bonding Technology) (Teradek makes Cellular Bonding Technology)
+Multiple ISPs (Internet Service Providers), servers onsite and offsite clustered together for redundancy, Load Balencers, Backup generators, UPSs (Uninterrupted Power Suppies),
+and utilizing Cellular and Network Bonding Technology. 
+(Mushroom Networks makes Network Bonding Technology) (Teradek makes Cellular Bonding Technology) both are great companies.
 
 Preventative: 
 Impliment Zero Trust Secure Framework, Use Microsoft 365 Enterprise Mobility and Security E5, Take a Holistic approach to Security with an Intrusion Prevention System, 
@@ -22,8 +26,8 @@ DNS Security, setup a Firewall, disable network drops when not in use, hire a se
 cameras....
 
 Detection: 
-Setup a SEIM to log events, Setup an Intrusion Detection System, Setup a Network Intrusion Detection System, setup Canarytokens,setup logging for certain commands
-that assist with lateral movements and when key files/folders get accessed, and Setup a Honeypot. 
+Setup a SEIM to log events, Setup an Intrusion Detection System, Setup a Network Intrusion Detection System, setup Canarytokens, setup logging for certain commands
+that assist with lateral movements and when key files/folders get accessed, and Setup multiple Honeypots. 
 You can't stop 100% of all attacks but you better make sure they are logged. 
 
 Recover: 
