@@ -8,7 +8,7 @@ You are building your security according the concept of how severe consequences 
 
 An asset is considered a users credentials, on prem nodes (servers, computers, Cell Phone, printers, scanners, badge systems, routers/AC points, Smart Devices, and more)
 
-Defense In Depth's principal is, What you cannot prevent needs to be detected; If it cannot be detected you will need to be able to recovery from it. 
+Defense In Depth's principal is, What you cannot prevent needs to be detected; If it cannot be detected you will need to be able to recover from it. 
 
 Below, I've gone into some detail about some of the characteristics of Defence in Depth and helping with establishing a base to work from with securing your own environment. 
 
@@ -26,8 +26,8 @@ DNS Security, setup a Firewall, disable network drops when not in use, hire a se
 cameras....
 
 Detection: 
-Setup a SEIM to log events, Setup an Intrusion Detection System, Setup a Network Intrusion Detection System, setup Canarytokens, setup logging for certain commands
-that assist with lateral movements and when key files/folders get accessed, and Setup multiple Honeypots. 
+Setup a SEIM to log events (Splunk), Setup an Endpoint Detection & Response (EDR) with IDS Capabilities (Microsoft Defender for Endpoint, SentinelOne, CrowdStrike Falcon), Setup a Network Intrusion Detection System (Arctic Wolf), 
+setup Canarytokens and logging/trip wires for when certain commands are used that assist with lateral movements and when key files/folders get accessed, and Setup multiple Honeypots. 
 You can't stop 100% of all attacks but you better make sure they are logged. 
 
 Recover: 
@@ -42,5 +42,5 @@ An effective Recovery Program includes Risk Management, contingency and continui
     Cyber Incident Response Plan
     Disaster Recovery Plan
     Information Systems Contingency Plan
-    Occupant Emergency Plan
+    Occupant Emergency Plan  
   
